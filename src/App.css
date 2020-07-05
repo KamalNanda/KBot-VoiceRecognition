@@ -1,0 +1,38 @@
+#btn{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #ff9900;
+  color: white;
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-left: 40px
+}
+.btnHolder{
+  width: 280px;
+  height: 280px;
+  top: 25%;
+  left: 40%;
+  position: absolute;
+  background-color: #2a313a;
+  border-radius: 100%;
+}
+.box{
+  width: 320px;
+  min-height: 80px;
+  height: auto;
+  padding: 10px;
+  border: 2px solid #2a313a;
+  position: absolute;
+  bottom: 40px;
+  color: white;
+  font-size: 1.5rem
+}
+.userBox{
+  background-color: tomato;
+  right: 40px;
+}
+.botName{
+  background-color: crimson;
+  left: 40px
+}
