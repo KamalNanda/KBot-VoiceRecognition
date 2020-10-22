@@ -2,6 +2,7 @@ import React , {useState} from 'react';
 import './App.css';
 import Button from './button'
 import MessageBox from './messageBox'
+import Contact from './Contact/Contact'
 
   function App(){
     const [name, setName] = useState("")
@@ -76,6 +77,7 @@ import MessageBox from './messageBox'
         <Button onButtonClick={onButtonClick} />
         <MessageBox text = {Utext} className="userBox"/>
         <MessageBox text = {Btext} className="botName"/>
+        <Contact />
       </div> 
     );
 }
